@@ -1,5 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+}
 
 #land {
   width: 100%;
@@ -9,15 +10,18 @@ body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   color: #FFFFFF;
-  text-align: right; }
-  #land .vcenter {
-    border: 1px solid transparent;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
-  #land .vcenter a, #land .vcenter a:hover {
-    background-color: #8724CD;
-    color: #FFFFFF;
-    text-decoration: none; }
+  text-align: right;
+}
+#land .vcenter {
+  border: 1px solid transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#land .vcenter a, #land .vcenter a:hover {
+  background-color: red;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=styles.css.map */
