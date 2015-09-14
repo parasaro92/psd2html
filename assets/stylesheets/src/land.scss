@@ -8,11 +8,22 @@
   color: #FFFFFF;
   text-align: right;
 
-  a {
+  a { 
+    font-size: 1.1em;
+    padding: 1em 3em;
+    border-radius: 1.5em;
+    font-weight: bold;
+    margin: 1em 0;
+    display: inline-block;  
+
     &, &:hover {
       background-color: #8724CD;
       color: #FFFFFF;
       text-decoration: none;
     }
+  }
+
+  .meta-info {
+    font-size: 0.85em;
   }
 }
