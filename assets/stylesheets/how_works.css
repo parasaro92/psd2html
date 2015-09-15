@@ -1,0 +1,15 @@
+#how_works .img-container {
+  padding: 0;
+}
+#how_works h3 {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 3em;
+}
+#how_works p.excerpt {
+  font-size: 1.1em;
+  margin: 2em 0;
+}
+
+/*# sourceMappingURL=how_works.css.map */
