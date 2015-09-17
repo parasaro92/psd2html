@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif; 
 }
-  
+
 .vcenter {
   border: 1px solid transparent;
   position: relative;
@@ -15,6 +15,14 @@ header {
     background-color: transparent;
     border-width: 0 0 1px 0;
     border-color: rgba(255, 255, 255, 0.15);
+
+    &.affix {
+      background-color: #2e3b4d;
+    }
+
+    &.affix-top {
+      background-color: transparent;
+    }
 
     form {
       input {
@@ -42,15 +50,31 @@ header {
     }
   }
 
-  &.navbar-default .navbar-nav>li>a {
-    &, &:hover, &:visited, &:link {
-     color: #FFF;
-     border-bottom: 3px solid transparent;
-     transition: border-color 0.3s ease-in;
+    &.navbar-default .navbar-nav>li
+      &>a {
+        &, &:hover, &:visited, &:link {
+         border-bottom: 3px solid transparent;
+         color: #FFF;
+         transition: border-color 0.3s ease-in;
+         background-color: transparent;
+        }
+
+       &:hover {
+        border-color: rgba(255, 255, 255, 0.4);
+      }
     }
 
-    &:hover {
-      border-color: white;
+
+    &.active a {
+      &, &:hover, &:visited, &:link {
+        background-color: transparent;
+      }
     }
+  } 
+
+  footer {
+    background-color: #2e3b4d;
+    color: #FFFFFF;
+    padding: 20vh 0;
+    text-align: center;
   }
-}

@@ -15,6 +15,12 @@ header nav.navbar {
   border-width: 0 0 1px 0;
   border-color: rgba(255, 255, 255, 0.15);
 }
+header nav.navbar.affix {
+  background-color: #2e3b4d;
+}
+header nav.navbar.affix-top {
+  background-color: transparent;
+}
 header nav.navbar form input {
   height: 2.4em;
   border-radius: 1.2em;
@@ -32,13 +38,29 @@ header a.navbar-brand .tagline {
   font-size: 0.7em;
   padding-left: 0.5em;
 }
-header.navbar-default .navbar-nav > li > a, header.navbar-default .navbar-nav > li > a:hover, header.navbar-default .navbar-nav > li > a:visited, header.navbar-default .navbar-nav > li > a:link {
-  color: #FFF;
+header.navbar-default .navbar-nav > li
+header > a, header.navbar-default .navbar-nav > li
+header > a:hover, header.navbar-default .navbar-nav > li
+header > a:visited, header.navbar-default .navbar-nav > li
+header > a:link {
   border-bottom: 3px solid transparent;
+  color: #FFF;
   transition: border-color 0.3s ease-in;
+  background-color: transparent;
 }
-header.navbar-default .navbar-nav > li > a:hover {
-  border-color: white;
+header.navbar-default .navbar-nav > li
+header > a:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+header.active a, header.active a:hover, header.active a:visited, header.active a:link {
+  background-color: transparent;
+}
+
+footer {
+  background-color: #2e3b4d;
+  color: #FFFFFF;
+  padding: 20vh 0;
+  text-align: center;
 }
 
 /*# sourceMappingURL=common.css.map */
