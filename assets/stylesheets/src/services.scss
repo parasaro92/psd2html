@@ -1,0 +1,35 @@
+#services {
+  background-image: url('../images/coffee.jpg');
+  background-size: cover;
+  background-position: 100% 60%;
+  height: 80vh;
+  color: #FFFFFF;
+  position: relative;
+
+  .service_container {
+    position: absolute;
+    bottom: 2em;
+    left: 3em;
+  }
+
+  .tag {
+    border: 1px solid #FFF;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 2.5em;
+    border-radius: 1em;
+    display: inline-block;
+  }
+
+  .author {
+    line-height: 2em;
+
+    img {
+      height: 2em;
+      width: 2em;
+      margin-right: 1em;
+      border-radius: 50%;
+    }
+  }
+}
+
