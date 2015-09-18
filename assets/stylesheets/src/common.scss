@@ -16,65 +16,66 @@ header {
     border-width: 0 0 1px 0;
     border-color: rgba(255, 255, 255, 0.15);
 
-    &.affix {
-      background-color: #2e3b4d;
-    }
-
-    &.affix-top {
-      background-color: transparent;
-    }
-
-    form {
-      input {
-        height: 2.4em;
-        border-radius: 1.2em;
+      &.affix {
+        background-color: #2e3b4d;
       }
 
-      i.fa {
-        margin-left: -2.2em;
-        color: rgba(0,0,0,0.3);
-      }
-    }
-  }
-
-  a.navbar-brand {
-    .name {
-      color: #DF2BEC;
-      font-size: 1.2em;
-    }
-
-    .tagline {
-      color: #FFFFFF;
-      font-size: 0.7em;
-      padding-left: 0.5em;
-    }
-  }
-
-    &.navbar-default .navbar-nav>li
-      &>a {
-        &, &:hover, &:visited, &:link {
-         border-bottom: 3px solid transparent;
-         color: #FFF;
-         transition: border-color 0.3s ease-in;
-         background-color: transparent;
-        }
-
-       &:hover {
-        border-color: rgba(255, 255, 255, 0.4);
-      }
-    }
-
-
-    &.active a {
-      &, &:hover, &:visited, &:link {
+      &.affix-top {
         background-color: transparent;
       }
-    }
-  } 
 
-  footer {
-    background-color: #2e3b4d;
-    color: #FFFFFF;
-    padding: 20vh 0;
-    text-align: center;
+      form {
+        input {
+          height: 2.4em;
+          border-radius: 1.2em;
+        }
+
+        i.fa {
+          margin-left: -2.2em;
+          color: rgba(0,0,0,0.3);
+        }
+      }
+
+      a.navbar-brand {
+        .name {
+          color: #DF2BEC;
+          font-size: 1.2em;
+        }
+
+        .tagline {
+          color: #FFFFFF;
+          font-size: 0.7em;
+          padding-left: 0.5em;
+        }
+      }
+
+      &.navbar-default .navbar-nav>li {
+        &>a {
+          &, &:hover, &:visited, &:link {
+           border-bottom: 3px solid transparent;
+           color: #FFF;
+           transition: border-color 0.3s ease-in;
+           background-color: transparent;
+         }
+
+         &:hover {
+          border-color: rgba(255, 255, 255, 0.4);
+        }
+      }
+
+
+      &.active a {
+        &, &:hover, &:visited, &:link {
+          background-color: transparent;
+        }
+      }
+    } 
   }
+}
+
+footer {
+  background-color: #2e3b4d;
+  color: #FFFFFF;
+  padding: 20vh 0;
+  text-align: center;
+}

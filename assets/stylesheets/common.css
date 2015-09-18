@@ -29,30 +29,25 @@ header nav.navbar form i.fa {
   margin-left: -2.2em;
   color: rgba(0, 0, 0, 0.3);
 }
-header a.navbar-brand .name {
+header nav.navbar a.navbar-brand .name {
   color: #DF2BEC;
   font-size: 1.2em;
 }
-header a.navbar-brand .tagline {
+header nav.navbar a.navbar-brand .tagline {
   color: #FFFFFF;
   font-size: 0.7em;
   padding-left: 0.5em;
 }
-header.navbar-default .navbar-nav > li
-header > a, header.navbar-default .navbar-nav > li
-header > a:hover, header.navbar-default .navbar-nav > li
-header > a:visited, header.navbar-default .navbar-nav > li
-header > a:link {
+header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
   border-bottom: 3px solid transparent;
   color: #FFF;
   transition: border-color 0.3s ease-in;
   background-color: transparent;
 }
-header.navbar-default .navbar-nav > li
-header > a:hover {
+header nav.navbar.navbar-default .navbar-nav > li > a:hover {
   border-color: rgba(255, 255, 255, 0.4);
 }
-header.active a, header.active a:hover, header.active a:visited, header.active a:link {
+header nav.navbar.navbar-default .navbar-nav > li.active a, header nav.navbar.navbar-default .navbar-nav > li.active a:hover, header nav.navbar.navbar-default .navbar-nav > li.active a:visited, header nav.navbar.navbar-default .navbar-nav > li.active a:link {
   background-color: transparent;
 }
 
