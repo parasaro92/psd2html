@@ -7,7 +7,11 @@ module.exports = function(grunt) {
         },
         files: {                         // Dictionary of files 
           'assets/stylesheets/common.css': 'assets/stylesheets/src/common.scss',       // 'destination': 'source' 
-          'assets/stylesheets/land.css': 'assets/stylesheets/src/land.scss'           // 'destination': 'source' 
+          'assets/stylesheets/land.css': 'assets/stylesheets/src/land.scss',           // 'destination': 'source' 
+          'assets/stylesheets/about.css': 'assets/stylesheets/src/about.scss',
+          'assets/stylesheets/how_works.css': 'assets/stylesheets/src/how_works.scss',
+          'assets/stylesheets/services.css': 'assets/stylesheets/src/services.scss',
+          'assets/stylesheets/contact.css': 'assets/stylesheets/src/contact.scss'  
         }
       }
     },
@@ -26,7 +30,14 @@ module.exports = function(grunt) {
     cssmin: {
       target: {
         files: {
-          'assets/stylesheets/app.min.css': ['assets/stylesheets/common.css', 'assets/stylesheets/land.css']
+          'assets/stylesheets/app.min.css':
+          [
+           'assets/stylesheets/common.css', 
+           'assets/stylesheets/land.css', 
+           'assets/stylesheets/about.css',
+           'assets/stylesheets/how_works.css',
+           'assets/stylesheets/services.css',
+           'assets/stylesheets/contact.css'          ]
         }
       }
     }

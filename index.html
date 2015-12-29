@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> Pex - PSD2HTML Project</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/stylesheets/app.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"</script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<head>
+  <meta charset="utf-8">
+  <title> Pex - PSD2HTML Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/stylesheets/app.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="assets/javascripts/app.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
@@ -22,13 +23,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><span class="name">pex</span>
-          <span class="tagline">Photoshop Website Template</span>  
+          <a class="navbar-brand" href="#land"><span class="name">pex</span>
+            <span class="tagline">Photoshop Website Template</span>  
           </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="nav-link-container">
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Search Website">
@@ -36,37 +37,139 @@
             </div>
           </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how_works">How it works</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-  </header>
-  <section id ="land">
-    <div class="vcenter">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2>
-             Design your eyeballs<br>
-             will thank you for
-           </h2>
-           <a href= "#">Get Started Today</a>
-           <div class= "meta-info">Lorem ipsum dolor sit amet, consectetur.</div>
-          </div>
+</header>
+<section id ="land">
+  <div class="vcenter">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>
+           Design your eyeballs<br>
+           will thank you for
+         </h2>
+         <a href= "#">Get Started Today</a>
+         <div class= "meta-info">Lorem ipsum dolor sit amet, consectetur.</div>
+       </div>
 
-         <div class="col-sm-6 hidden-xs">
-          
-         </div>
+       <div class="col-sm-6 hidden-xs">
+
        </div>
      </div>
    </div>
- </section>
+ </div>
+</section>
+<section id="about">
+  <div class="container">
+   <div class="row">
+     <div class="col-sm-6">
+       <h3>A Fantastic Heading</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus impedit id corrupti, pariatur soluta maxime quibusdam ipsa repellendus vero aperiam.</p>
+     </div>
+     <div class="col-sm-6">
+       <h3>Good Day Blocks</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum inventore adipisci repellat saepe quo aspernatur, sint esse quibusdam veritatis, ratione.</p>
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-sm-6">
+       <h3>Lorem ipsum dolor.</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat labore itaque temporibus, iste harum reprehenderit aliquam, enim deserunt vero praesentium.</p>
+     </div>
+     <div class="col-sm-6">
+       <h3>Lorem ipsum dolor sit.</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut explicabo dolore, culpa magni eligendi dolorem tempore voluptatibus atque soluta voluptatem!</p>
+     </div>
+   </div>
+ </div>
+</section>
+<section id="about-action">
+  <div class="container">
+   <h2>Wickede &amp; wack, bang bang boo!</h2>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima qui, quae temporibus inventore dolorem sint. Laborum ex necessitatibus cum, accusantium illum incidunt tempore alias, quibusdam tenetur adipisci eum cupiditate architecto voluptas inventore eos ullam veniam. Quis, veniam dolor vitae quasi tempora ipsam error, optio maiores repellat quas aperiam, at magni!</p>
+   <a href="#">Get Started Today</a>
+ </div>
+</section>
+<section id="how_works">
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-4 hidden-xs img-container">
+      <img src="assets/images/lap.jpg" alt="How it works" class="img reponsive">
+    </div>
+    <div class="col-sm-8">
+      <h3>How It Works?</h3>
+      <p class="excerpt">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum maiores expedita labore exercitationem perspiciatis necessitatibus natus iusto, maxime dolor voluptate!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo eos ut reprehenderit, est temporibus autem quo a. Culpa voluptatem facere labore ad impedit pariatur dignissimos quidem et, perspiciatis perferendis, doloribus porro! Ab rem velit deserunt, minus nam voluptatum. Eaque rem dolor neque dolorum minima a repellendus, doloremque ea?
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+<section id="how_works_action">
+  <div class="action-container">
+  <h2>Experience the Rush</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus hic dolorum aut culpa nisi quos doloremque repudiandae, excepturi veniam omnis.</p>
+  <a href="#">Get Started Today</a>
+  <div class="meta_info">Lorem ipsum dolor sit amet, consectetur.</div>
+  </div>
+</section>
+<section id="services">
+  <div class="service_container">
+    <div class="tag">Photography</div>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor.</h1>
+    <div class="author">
+      <img src="assets/images/minion.jpg" alt="Minion">
+      <span>A Good Character</span>
+    </div>
+  </div>
+</section>
+<section id="faq">
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-8">
+      <h3>Frequently asked question</h3>
+      <p class="excerpt">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum maiores expedita labore exercitationem perspiciatis necessitatibus natus iusto, maxime dolor voluptate?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo eos ut reprehenderit, est temporibus autem quo a. Culpa voluptatem facere labore ad impedit pariatur dignissimos quidem et, perspiciatis perferendis, doloribus porro! Ab rem velit deserunt, minus nam voluptatum. Eaque rem dolor neque dolorum minima a repellendus, doloremque ea!
+      </p>
+    </div>
+    <div class="col-sm-4 hidden-xs img-container">
+      <img src="assets/images/lap.jpg" alt="How it works" class="img reponsive">
+    </div>
+  </div>
+</div>
+</section>
+<section id="contact">
+  <div class="container">  
+    <h2>Get in Touch</h2>
+    <p class="excerpt">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo necessitatibus eveniet, placeat, ducimus, repellendus tenetur tempore, libero vel ex aliquam sed. Eaque ad, quo ducimus?
+    </p>
+    <p>
+      <a href="#" id="email-link"></a>
+    </p>
+  </div>
+</section>
+<footer>
+  <div class="container">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptatum possimus non culpa aliquid voluptates cumque. Error totam eveniet, incidunt.
+  </div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,55 @@
+#how_works {
+  .img-container {
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3em;
+  }
+  
+  p.excerpt {
+    font-size: 1.1em;
+    margin: 2em 0;
+  }
+}
+
+#how_works_action {
+  background-image: url('../images/mountain.jpg');
+  background-size: cover;
+  background-position: 50% 0;
+  text-align: center;
+  padding-top: 10vh;
+  color: #FFFFFF; 
+
+  .action-container {
+    background-color: rgba(135, 36, 205, 0.5);
+    padding: 10vh 0 15vh;
+
+    p {
+      color: #E6B7FD;
+      max-width: 60vw;
+      margin: 10vh auto;
+    }
+
+    a {
+      &, &:hover {
+        background-color: #8724CD;
+        color: #FFF;
+        text-decoration: none;    
+        padding: 0 3em;
+        height: 3em;
+        line-height: 3em;
+        display: inline-block;
+        border-radius: 1.5em;
+        margin-bottom: 1em;
+      }
+    }
+
+    .meta-info {
+      font-size: 0.7em;
+    }
+  }
+}

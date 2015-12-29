@@ -1,0 +1,17 @@
+#contact {
+  background-color: #600a9d;
+  padding: 20vh 0;
+}
+#contact h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#contact p.excerpt {
+  font-size: 1.1em;
+}
+#contact a, #contact a:hover {
+  color: #FFF;
+}
+
+/*# sourceMappingURL=contact.css.map */
